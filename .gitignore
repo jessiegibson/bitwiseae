@@ -1,0 +1,122 @@
+# Snowflake and Database specific
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+*.old
+CLAUDE.md
+# Credentials and sensitive information
+*.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.json
+credentials.json
+secrets.json
+*.key
+*.pem
+*.p12
+*.p8
+*.pfx
+
+# Connection files and configs
+snowflake_config.json
+connection_config.json
+database_config.json
+*.connection
+*.dsn
+
+# Python (if using Python scripts with Snowflake)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data files (uncomment if you don't want to track data files)
+# *.csv
+# *.json
+# *.xml
+# *.xlsx
+# *.xls
+# *.parquet
+# *.avro
+
+# Output and generated files
+output/
+exports/
+reports/
+*.output
+*.result
+
+# Local development files
+local/
+dev/
+test_data/
+sample_data/
+
+# Documentation build files (if using tools like Sphinx)
+docs/_build/
+site/
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+*.exe
+*.msi
+*.msm
+*.msp
+desktop.ini
+ehthumbs.db
+
+# Linux
+*~
+
+# Temporary SQL files
+temp_*.sql
+tmp_*.sql
+scratch_*.sql
+test_*.sql
+
+# DBT specific (if using DBT with Snowflake)
+target/
+dbt_packages/
+logs/
+.dbt/
+profiles.yml
+
+# Looker specific (since you have a Looker folder)
+*.dev.lkml
+.lookmlcache
+*.lookml~
+
+# Git specific
+.git/
+*.orig
+*.rej
+
+# Terraform (if using Infrastructure as Code)
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
+
+# Docker
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
