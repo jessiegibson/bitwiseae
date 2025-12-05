@@ -586,7 +586,3 @@ GROUP BY year_actual, week_of_year, channel_name;
   - `growth_mart.v_weekly_funnel_trends`
 
 ---
-
-**Created:** 2025-12-03
-**Version:** 1.0
-**Maintainer:** Analytics Engineering Team
